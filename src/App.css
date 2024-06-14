@@ -1,0 +1,193 @@
+
+.App {
+  text-align: center;
+}
+.list {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  column-gap: 30px;
+  margin-top: 30px;
+}
+.img {
+  height: 250px;
+  width: 350px;
+}
+.card {
+  height: 550px;
+  width: 300px;
+  margin: 30px;
+}
+
+.card:hover {
+  box-shadow: 10px 10px 26px -3px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 10px 10px 26px -3px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 10px 10px 26px -3px rgba(0, 0, 0, 0.75);
+  cursor: pointer;
+}
+
+.home{
+  margin-left: 300px;
+}
+
+.About{
+  margin-left:70px;
+}
+
+.Destination{
+  margin-left: 70px;
+}
+
+.travelo{
+  margin-left: 40px;
+}
+
+.airplane{
+  font-size: 25px;
+  margin-left: 120px;
+}
+
+.btn1{
+  margin-right: 200px;
+  
+}
+
+
+.item{
+  width: 300px;
+  height: 550px;
+  /* background-color: rgb(163, 111, 111); */
+  text-align: center;
+  margin-top: 20px;
+}
+
+#image{
+  text-align: center;
+  width: 1550px;
+  height: 550px;
+}
+
+.section1{
+  margin-top: 100px;
+  margin-left: 220px;
+  /* background-color: red; */
+  width: 1090px;
+  height: 270px;
+  padding: 60px;
+  text-align: center;
+  background-image: url(https://as1.ftcdn.net/v2/jpg/04/92/77/24/1000_F_492772474_BM3JjSYYKFsQLbQCkm9wdY31qszHmcVO.jpg); 
+  background-repeat: no-repeat; 
+  background-position: center; 
+  background-attachment: fixed; 
+  background-size: cover;
+}
+
+.text{
+  color:white;
+}
+.para{
+  color:white;
+}
+
+.input{
+  margin-top: 10px;
+  margin-left: 10px;
+  padding: 7px;
+  border-radius: 4px;
+  width: 200px;
+}
+
+.btn{
+background-color: rgb(253, 228, 5) !important ;
+border: solid 1px;
+margin-bottom: 5px;
+}
+
+.shop{
+  font-size: 40px;
+  margin-left: -100px;
+  margin-right: 10px;
+}
+
+.section2{
+  display:flex;
+  margin-left: 250px;
+  flex-wrap: wrap;
+}
+
+.titre{
+  margin-left: 300px;
+  margin-top: 15px;
+}
+
+.card{
+  text-align: center;
+}
+
+.earth{
+  font-size: 50px;
+  margin-left: 100px;
+  color: rgb(12, 12, 116);
+}
+
+.hotel{
+  font-size: 50px;
+  margin-left: 100px;
+  color: rgb(12, 12, 116);
+
+}
+
+.ship{
+  font-size: 50px;
+  margin-left: 100px;
+  color: rgb(12, 12, 116);
+}
+
+.cardtitle{
+  color: rgb(37, 13, 175) !important
+
+}
+
+.footercard{
+  margin-left: 500px;
+}
+
+.card2{
+  margin-top: 50px;
+}
+
+.media{
+  display:flex;
+  justify-content: center;
+}
+
+.whatsapp{
+  color:green;
+  font-size: 30px;
+  margin-right: 20px;
+  cursor: pointer;
+}
+.facebook{
+  color:red;
+  font-size: 30px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.instagram{
+  color:rgb(227, 96, 118);
+  font-size: 30px;
+  /* margin-right: 10px; */
+  cursor: pointer;
+}
+.twitter{
+  color:rgb(11, 160, 235);
+  font-size: 30px;
+  margin-left: 15px;
+  cursor: pointer;
+}
+
+.about{
+  background-color: rgb(60, 59, 59);
+  color: white;
+  margin-top: 10px;
+}
