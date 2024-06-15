@@ -6,7 +6,7 @@ import { FaTwitter } from "react-icons/fa";
 const About = () => {
   return (
     <div className='about' id='about' >
-        <h1 >ABOUT AS </h1>
+        <h1 >ABOUT US </h1>
         <p>Email: Travelo_All_country@gmail.com</p>
         <p>Contact: +21677250852/+21677800424</p>
         <div className='media'>

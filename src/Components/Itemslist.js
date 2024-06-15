@@ -5,6 +5,10 @@ import ItemCard from "./Itemscard";
 
 const ItemList = () => {
   const { items } = useSelector((state) => state);
+  const search = useSelector(state => state.search);
+  const filteredItems = items.filter(item =>
+    item.country.toLowerCase().includes(search.toLowerCase())
+);
   // console.log(items);
   const dispatch = useDispatch();
   useEffect(() => {
@@ -13,7 +17,7 @@ const ItemList = () => {
 
   return (
     <div className="list">
-      {React.Children.toArray(items.map((el) => <ItemCard item={el} />))}
+      {React.Children.toArray(filteredItems.map((el) => <ItemCard item={el} />))}
     </div>
   );
 };

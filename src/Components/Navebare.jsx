@@ -25,7 +25,7 @@ const Navebare = () => {
         </Nav>
         <Form className="d-flex">
           <Link to={"/login"}>
-          <Button variant="outline-success" className='btn1'>Login</Button>
+          <Button variant="outline-success" className='btn1'>Sign In</Button>
           </Link>
           <TiShoppingCart className='shop'/>
         </Form>
